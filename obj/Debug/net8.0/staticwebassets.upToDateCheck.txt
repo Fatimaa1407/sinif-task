@@ -1,0 +1,12 @@
+wwwroot\assets\css\styles.css
+wwwroot\assets\demo\chart-area-demo.js
+wwwroot\assets\demo\chart-bar-demo.js
+wwwroot\assets\demo\chart-pie-demo.js
+wwwroot\assets\demo\datatables-demo.js
+wwwroot\assets\img\error-404-monochrome.svg
+wwwroot\assets\js\datatables-simple-demo.js
+wwwroot\assets\js\scripts.js
+wwwroot\upload\sliders\1d9f74d9-dd27-43e8-9528-50fde760a5ab134183299395417524.jpg
+wwwroot\upload\sliders\3e4c1688-0abc-4c39-84a5-b307258977f9134183299395417524.jpg
+wwwroot\upload\sliders\9eed0376-659a-438b-80f6-cc787ad8af80Messi.jpg
+wwwroot\upload\sliders\b80856ac-a4ec-411b-a65a-9bfcfcfa4074barcelona-spain-lionel-messi-of-fc-barcelona-celebrates-with-neymar-and-luis-suarez-after.webp
