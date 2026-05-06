@@ -1,0 +1,22 @@
+﻿@using WebApplication4.Models
+@model Slider
+<div>
+<form asp-controller="Slider" asp-action="Update" method="post">
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input asp-for="@Model.Title" type="text" class="form-control" id="title" >
+            <span class="text-danger" asp-validation-for="@Model.Title"></span>
+        </div>
+        <div class="mb-3">
+            <label for="desc" class="form-label">Description</label>
+            <input asp-for="@Model.Desc" type="text" class="form-control" id="desc" >
+                <span class="text-danger" asp-validation-for="@Model.Desc"></span>
+            </div>
+            <div class="mb-3">
+                <label for="~/assets/imgUrl" class="form-label">Image URL</label>
+                <input asp-for="@Model.ImageUrl" type="text" class="form-control" id="~/assets/imgUrl">
+                    <span class="text-danger" asp-validation-for="@Model.ImageUrl"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>

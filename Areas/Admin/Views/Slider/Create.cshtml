@@ -1,0 +1,23 @@
+﻿@using WebApplication4.Models
+@model Slider
+<div>
+    <h1 class="text-primary">Add Slider</h1>
+    <form asp-controller="Slider" asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input asp-for="@Model.Title" type="text" class="form-control" id="title" placeholder="Add title...">
+                <span class="text-danger" asp-validation-for="@Model.Title"></span>
+            </div>
+            <div class="mb-3">
+                <label for="desc" class="form-label">Description</label>
+                <input asp-for="@Model.Desc" type="text" class="form-control" id="desc" placeholder="Add description...">
+                    <span class="text-danger" asp-validation-for="@Model.Desc"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="~/assets/imgUrl" class="form-label">Select Image</label>
+                    <input asp-for="@Model.ImageFile" type="file" class="form-control" id="~/assets/imgUrl">
+                        <span class="text-danger" asp-validation-for="@Model.ImageFile"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+</div>
